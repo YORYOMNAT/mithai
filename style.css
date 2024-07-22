@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+	margin: 0px;
+	font-family: 'Roboto';
+}
+.inp input{
+   width: 349px;
+   border-radius: 15px;
+   height: 42px;
+   border: none;
+}
+.y-line {
+	border: 1px solid #FFDC00;
+	width: 270px;
+}
+.inp button{
+   width: 50px;
+   background-color: #961460;
+   position: absolute;
+   right: 17%;
+   height: 36px;
+   margin-top: 3px;
+   border-radius: 20px;
+   color: #fff;
+}
+.navbar {
+	background-color: rgba(218, 21, 64, 0.753);
+}
+.navbar-brand {
+	color: #413f3f;
+}
+.brand-i {
+	color: #FFDC00;
+	font-family: 'Roboto';
+	font-size: 27px;
+}
+.cart {
+	margin-left: 10px;
+}
+.cart a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 19px;
+	font-family: 'Roboto';
+}
+/*home section*/
+
+.home {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.445)), url(image/7.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.home p {
+	color: ghostwhite;
+	font-size: 44px;
+}
+.s1 {
+	color: rgba(250, 66, 66, 0.836);
+}
+.view a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	background-color: rgb(206, 37, 122);
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.card {
+    border: none;
+}
+.card-text {
+	font-family: 'Roboto';
+}
+.card img:hover {
+    cursor: pointer;
+}
+.card a {
+	padding: 8px;
+	background-color: #413f3f;
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+}
+.about {
+	background-color: #413f3f;
+	margin: auto;
+}
+.about img {
+	height: auto;
+}
+.about h3 {
+	color: #fff;
+	font-style: italic;
+}
+.about p {
+	color: #fff;
+	font-size: 20px;
+}
